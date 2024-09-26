@@ -1,0 +1,27 @@
+body {
+  background-image: url(image.jpg);
+  background-size: 2700px;
+  background-repeat: no-repeat;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+h1 {
+  text-align: center;
+  color: white;
+  margin-left: 400px;
+}
+nav {
+  float: right;
+  color: white;
+}
+p {
+  color: white;
+  font-size: larger;
+}
+a {
+  color: white;
+}
+li {
+  display: inline-block;
+  margin: 20px;
+}
