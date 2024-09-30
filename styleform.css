@@ -1,0 +1,56 @@
+body {
+    background-image: url(image.jpg);
+    background-size: 2700px;
+    background-repeat: no-repeat;
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+  }
+  nav {
+    float: right;
+    color: white;
+  }
+  a {
+    color: white;
+  }
+  P{
+    color: white;
+  }
+  li{
+    display: inline-block;
+    margin: 10px;
+   
+  }
+  h1{
+    color: white;
+    text-align: center;
+  
+  }
+  #formulaire {
+    color: white;
+    border: 2px solid black;
+    width: 400px;
+    background-color: blue;
+    padding: 60px;
+    margin: 60px ;
+    text-align: center;
+    margin-left: 500px;
+   
+  }
+  
+  label,input {
+  
+    display: block;
+    width: 200px;
+    padding: 20px;
+    
+}
+
+input{
+  
+  display: block;
+}
+[type="submit"]{
+  margin: 40px;
+  
+  
+}
