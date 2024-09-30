@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link rel="shortcut icon" href="./logo.jpg">
+    <link rel="stylesheet" href="styleformulaire.css" />
+</head>
+<body>
+    <div class="Formulaire d'inscription">
+
+        <h1>Formulaire d'Inscription - Club de Foot MMS</h1>
+    
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td><label for="prenom">Prénom :</label></td>
+                    <td><input type="text" id="prenom" name="prenom" required></td>
+                </tr>
+                <tr>
+                    <td><label for="nom">Nom :</label></td>
+                    <td><input type="text" id="nom" name="nom" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email :</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="telephone">Téléphone :</label></td>
+                    <td><input type="tel" id="telephone" name="telephone" required></td>
+                </tr>
+                <tr>
+                    <td><label for="naissance">Date de Naissance :</label></td>
+                    <td><input type="date" id="naissance" name="naissance" required></td>
+                </tr>
+                <tr>
+                    <td><label for="position">Position préférée :</label></td>
+                    <td>
+                        <select id="position" name="position" required>
+                            <option value="attaquant">Attaquant</option>
+                            <option value="milieu">Milieu</option>
+                            <option value="defenseur">Défenseur</option>
+                            <option value="gardien">Gardien</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="commentaires">Commentaires :</label></td>
+                    <td><textarea id="commentaires" name="commentaires"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="S'inscrire">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
